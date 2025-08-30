@@ -34,8 +34,8 @@ This project was created as my first usage of WebSockets to learn the basics of 
 
 ### Prerequisites
 
-- Node.js 18+
-- Angular CLI 16+
+- Node.js 19+
+- Angular CLI 19+
 
 ---
 
