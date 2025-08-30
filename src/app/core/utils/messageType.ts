@@ -1,0 +1,1 @@
+export type MessageType = 'JOIN' | 'LEAVE' | 'CHAT';

@@ -1,0 +1,23 @@
+<section class="home">
+    <h1>Type your username to enter the Chat!</h1>
+
+    <form [formGroup]="form" (ngSubmit)="onSubmit()" autocomplete="off">
+        <div class="fields">
+            <input 
+                type="text" 
+                id="name" 
+                name="name" 
+                maxlength="30" 
+                placeholder="Enter your username..." 
+                formControlName="username"
+            />
+
+            @if((form.get('username')?.touched && form.get('username')?.invalid || 
+                (formSubmitted && form.get('username')?.invalid))) {
+                <span class="error">Username is required</span>
+            }
+        </div>
+        
+        <button type="submit">Start Chating</button>
+    </form>
+</section>

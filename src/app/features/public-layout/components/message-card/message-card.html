@@ -1,0 +1,7 @@
+<div class="message-container" [class]="message.messagePosition">
+    <span class="user-avatar">{{ message.chat.sender.at(0)?.toUpperCase() }}</span>
+    <span class="message-sent">
+        <p class="username">{{ message.chat.sender }}</p>
+        <p class="message-text">{{ message.chat.message }}</p>
+    </span>
+</div>

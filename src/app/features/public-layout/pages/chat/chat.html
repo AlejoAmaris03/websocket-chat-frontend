@@ -1,0 +1,23 @@
+<section class="chat">
+    <h1>Welcome to Chat Room!</h1>
+    
+    @for(message of messagesQueue; track $index) {
+        @if(message.chat.sender !== username && (message.chat.type === 'JOIN' || message.chat.type === 'LEAVE')) {
+            <app-user-status-notification  [message]="message" />
+        }
+        
+        @if(message.chat.type === 'CHAT') { <app-message-card [message]="message" /> }
+    }
+
+    <form [formGroup]="form" (ngSubmit)="sendMessage()" autocomplete="off">
+        <input
+            type="text" 
+            name="message" 
+            id="message" 
+            placeholder="Type your message here..."
+            formControlName="message"
+        />
+
+        <button type="submit">Send</button>
+    </form>
+</section>

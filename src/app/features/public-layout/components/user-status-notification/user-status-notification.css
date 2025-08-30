@@ -1,0 +1,11 @@
+.status {
+    font-style: italic;
+    font-size: .8rem;
+    padding: .5rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .4);
+    margin: 0 1rem;
+}
+
+.status span {
+    color: rgba(0, 0, 0, .5);
+}
