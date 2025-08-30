@@ -1,59 +1,60 @@
-# WebSocketIntroFrontend
+# 💻 Chat Frontend - Angular + WebSocket
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.5.
+This is the frontend of a simple real-time chat application built with Angular (frontend). It uses WebSockets to provide live two-way communication between clients without refreshing the page.
 
-## Development server
 
-To start a local development server, run:
+This project was created as my first usage of WebSockets to learn the basics of real-time communication in full-stack applications. 🚀
 
-```bash
-ng serve
-```
+> 💡 You can find the backend here: [Chat Backend](https://github.com/AlejoAmaris03/)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## ⚙️ Tech Stack
+  - Angular 20
+  - RxJS
+  - STOMP.js + SockJS
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
+## 📁 Project Structure
+<img width="213" height="178" alt="image" src="https://github.com/user-attachments/assets/d5294383-3ed1-4992-a746-42f1c4732f0a" />
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🖼️ Screenshots
+- 🏠 Index page
+<img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/bdae6f4d-2061-435e-8824-92c8ea743d1a" />
 
-## Building
+- 📨 Message board
+<img width="1919" height="910" alt="image" src="https://github.com/user-attachments/assets/551c7fe2-7aa9-4da8-b37c-755e5b8d0f8e" />
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## 🚀 Getting Started
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### Prerequisites
 
-## Running unit tests
+- Node.js 18+
+- Angular CLI 16+
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+---
 
-```bash
-ng test
-```
+### Installation
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/AlejoAmaris03/websocket-chat-frontend.git
+   cd websocket-chat-frontend-main
 
-## Running end-to-end tests
+2. Install dependencies
+   ```bash
+   npm install
 
-For end-to-end (e2e) testing, run:
+3. Run the dev server
+   ```bash
+   ng serve
 
-```bash
-ng e2e
-```
+4. Navigate to http://localhost:4200/ in your browser.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+5. **Backend Connection**
+- Make sure your backend Spring Boot app is running at http://localhost:8080.
+  
