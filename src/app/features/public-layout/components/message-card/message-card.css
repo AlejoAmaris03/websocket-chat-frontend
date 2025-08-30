@@ -3,6 +3,7 @@
 }
 
 .message-container {
+    position: relative;
     display: flex;
     align-items: center;
     gap: .5rem;
@@ -21,6 +22,10 @@
     font-size: 1.5rem;
 }
 
+.message-sent {
+    position: absolute;
+}
+
 .message-sent .username {
     font-weight: bold;
     font-size: .8rem;
@@ -33,6 +38,10 @@
 .right .user-avatar {
     background-color: #4caf50;
     color: white;
+}
+
+.right .message-sent {
+    right: 45px;
 }
 
 .right .message-sent {
@@ -50,4 +59,9 @@
 
 .left .message-sent {
     text-align: left;
+}
+
+
+.left .message-sent {
+    left: 45px;
 }
