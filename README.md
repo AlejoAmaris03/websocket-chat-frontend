@@ -1,9 +1,9 @@
 # 💻 Chat Frontend - Angular + WebSocket
 
-This is the frontend of a simple real-time chat application built with Angular (frontend). It uses WebSockets to provide live two-way communication between clients without refreshing the page.
+This is the frontend of a simple real-time chat application built with **Angular**. It uses **WebSockets** to provide live two-way communication between clients without refreshing the page.
 
 
-This project was created as my first usage of WebSockets to learn the basics of real-time communication in full-stack applications. 🚀
+This project was created as my first **usage of WebSockets** to learn the basics of real-time communication in full-stack applications. 🚀
 
 > 💡 You can find the backend here: [Chat Backend](https://github.com/AlejoAmaris03/)
 
