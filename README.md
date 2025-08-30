@@ -25,8 +25,8 @@ This project was created as my first **usage of WebSockets** to learn the basics
 - 🏠 Index page
 <img width="1919" height="908" alt="image" src="https://github.com/user-attachments/assets/bdae6f4d-2061-435e-8824-92c8ea743d1a" />
 
-- 📨 Message board
-<img width="1919" height="910" alt="image" src="https://github.com/user-attachments/assets/551c7fe2-7aa9-4da8-b37c-755e5b8d0f8e" />
+- 📨 Chat room
+<img width="1919" height="1027" alt="image" src="https://github.com/user-attachments/assets/fb5dd857-e865-438c-a744-bf1f6eabdafb" />
 
 ---
 
