@@ -5,7 +5,7 @@ This is the frontend of a simple real-time chat application built with **Angular
 
 This project was created as my first **usage of WebSockets** to learn the basics of real-time communication in full-stack applications. 🚀
 
-> 💡 You can find the backend here: [Chat Backend](https://github.com/AlejoAmaris03/)
+> 💡 You can find the backend here: [Chat Backend](https://github.com/AlejoAmaris03/websocket-chat-backend)
 
 ---
 
